@@ -44,7 +44,9 @@ public class Framework_Base {
 	public static JavascriptExecutor js;
 
 	
-	
+	public static void maxWindow() {
+		driver.manage().window().maximize();
+	}
 
 	public static void toFetchTitle() {
 		String titleName = driver.getTitle();
